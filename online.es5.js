@@ -67,7 +67,7 @@
       window.Promise=MyPromise;
     })();
   }
-  // Runtime http-only enforcement for dynamic requests
+  // Runtime http-only enforcement for dynamic requests (XHR + Lampa.Utils.putScript)
   (function(){
     function toHttp(u){
       if(!u)return u; u=String(u);
